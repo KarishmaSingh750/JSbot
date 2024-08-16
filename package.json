@@ -1,0 +1,59 @@
+{
+  "name": "jschatbot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^0.0.38",
+    "@ai-sdk/openai": "^0.0.46",
+    "@headlessui/react": "^2.1.2",
+    "@radix-ui/react-accordion": "^1.2.0",
+    "@radix-ui/react-avatar": "^1.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@tanstack/react-query": "^5.51.23",
+    "ai": "^3.3.8",
+    "bits-ui": "^0.21.13",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "eventsource-parser": "^2.0.1",
+    "i": "^0.3.7",
+    "lucide-react": "^0.424.0",
+    "lucide-svelte": "^0.424.0",
+    "markdown": "^0.5.0",
+    "next": "^14.2.5",
+    "openai": "^4.55.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1",
+    "react-markdown": "^9.0.1",
+    "react-query": "^3.39.3",
+    "react-textarea-autosize": "^8.5.3",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "tanstack": "file:../../../../../react-query",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
